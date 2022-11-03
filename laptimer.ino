@@ -1,6 +1,3 @@
-// Sources
-// Used the following as a basis: https://github.com/beaver-pc/RC-Lap-Timer/blob/master/Lap_Timer.ino
-
 #include <LiquidCrystal.h>
 
 #define echoPin 8  // attach pin D2 Arduino to pin Echo of HC-SR04
