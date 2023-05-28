@@ -1,6 +1,6 @@
 # RC-lap-timer
 ## Description
-This projects uses an Arduino to track the laptimes of an RC car.
+This projects uses an Arduino to track the laptimes of an RC car. It times the lap, and keeps track of the fastest registered lap. It is portable and can be powered with a 9V battery.
 
 ## Demo
 *To be added*
@@ -22,7 +22,7 @@ See component list [here](https://github.com/mikeenting/RC-lap-timer/blob/main/l
 9. Power up the Arduino and you're good to go!
 
 ## Printer Settings
-I printed with an Ender 3 V2, using 1.75mm PLA and the following settings:
+I printed with a Creality Ender 3 V2, using 1.75mm PLA and the following settings:
 - Floor:
     - Print regular side down
     - Profile: 0.2
