@@ -1,6 +1,6 @@
 # RC-lap-timer
 ## Description
-This projects uses an Arduino to track the laptimes of an RC car. It times the lap, and keeps track of the fastest registered lap. It is portable and can be powered with a 9V battery.
+This projects uses an Arduino to track the laptimes of an RC car. It times the lap, and keeps track of the fastest registered lap. It is portable and can be powered with a 9V battery. See [this link](https://www.thingiverse.com/thing:6049245) to find the project on Thingiverse
 
 ## Demo
 *To be added*
