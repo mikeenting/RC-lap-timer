@@ -6,8 +6,8 @@
 
 // Adaptive variables
 int maxdistance = 15; // variable for setting the default distance in centimeters measured by the sensor
-int minlaptime = 5;   // variable for setting the minimum time a lap should take (to prefent 'fraud')
-int maxlaps = 10;     // variable for setting the maximum number of laps the timer should register. Default is 99, to prevent the numbers from rolling off the LED screen.
+int minlaptime = 5;   // variable for setting the minimum number of seconds a lap should take (to prevent invalid laps from being registered)
+int maxlaps = 10;     // variable for setting the maximum number of laps the timer should register. Do not set higher than 99, to prevent the lap numbers from rolling off the LCD screen.
 
 // Defines variables
 long duration;     // variable for the duration of sound wave travel
@@ -123,7 +123,7 @@ void loop()
 
   while (lap <= maxlaps)
   {
-    // Display current race time to dipslay
+    // Display current race time to display
     d = millis();
     c = millis();
     totaltime_seconds = (d - e) / 1000;
@@ -203,7 +203,6 @@ void loop()
   }
   while (lap > maxlaps)
   {
-    // Display flag pattern on the first half of the LCD
     // Display flag pattern on the first half of the LCD
     for (int i = 0; i < 2; i++)
     { // For each row
